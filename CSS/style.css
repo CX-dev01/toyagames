@@ -18,7 +18,7 @@
       font-family: 'story', sans-serif;
       text-align: center;
       padding-top: 2cm;
-      background: linear-gradient(135deg, #b7caeb, #ddcdd5);
+      background: linear-gradient(135deg, #0d031f, #1d0410);
       color: #333;
       margin: 0;
       min-height: 100vh;
@@ -27,7 +27,7 @@
     }
     img{
       border-radius: 15px;
-      box-shadow: 0 4px 0px #c5d4f7;
+      box-shadow: 0 4px 0px #000000;
     }
     /* Title */
     h2 {
@@ -48,7 +48,7 @@
     .title-cikoin {
       font-size: 0.8cm;
       margin-bottom: 1.2cm;
-      color: #764ba2;
+      color: #ca5b5b;
       text-shadow: 0 1px 2px rgba(0,0,0,0.1);
       animation: fadeInUp 1s ease-out;
     }
@@ -58,15 +58,14 @@
       width: 20%;
       min-width: 230px;
       margin: 1.2rem auto;
-      background: rgba(255, 255, 255, 0.85);
+      background: rgba(0, 0, 0, 0.096);
       padding: 25px;
       border-radius: 16px;
-      box-shadow: 0 4px 0px #c5d4f7;
+      box-shadow: 0 4px 0px #c5d4f73b;
       box-sizing: border-box;
       transition: all 0.25s ease;
       animation: fadeInUp 0.8s ease-out backwards;
       position: relative;
-      border: 1px solid rgba(255, 255, 255, 0.5);
     }
 
     .game-container:nth-child(2) { animation-delay: 0.1s; }
@@ -75,7 +74,7 @@
 
     .game-container:hover {
       transform: translateY(-6px);
-      box-shadow: 0 8px 0px #afc0e8;
+      box-shadow: 0 8px 0px #0f011100;
     }
 
     /* Game icons */
@@ -96,19 +95,19 @@
       padding: 0.55rem 1.25rem;
       font-size: 1rem;
       color: #fff;
-      background: linear-gradient(135deg, #667eea, #764ba2);
+      background: linear-gradient(135deg, #3a8324, #0c7046);
       border: none;
       border-radius: 9999px;
       text-decoration: none;
       cursor: pointer;
-      box-shadow: 0 4px 0px #5a3d8a;
+      box-shadow: 0 4px 0px #3d8a79;
       transition: 0.18s;
       -webkit-tap-highlight-color: transparent;
     }
 
     .game-container a:hover {
       transform: translateY(-2px);
-      box-shadow: 0 6px 0px #4d3275;
+      box-shadow: 0 6px 0px #32614e;
     }
 
     .game-container a:active {
